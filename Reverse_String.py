@@ -1,2 +1,5 @@
-a=input()
-print(a[ : :-1])
+a=list(map(str,input().split()))
+a.reverse()
+for i in a:
+    print(i,end=' ')
+    
