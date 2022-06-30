@@ -1,5 +1,5 @@
-r=float(input())
+r=int(input())
 pi=3.14
-area=(pi*r*r)
-x='{:.2f}'.format(area)
-print(x)
+n=pi*(r*r)
+d="{:.2f}".format(n)
+print(d)
