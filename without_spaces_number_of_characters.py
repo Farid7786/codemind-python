@@ -1,6 +1,8 @@
-a=input()
+n=input()
 c=0
-for i in a:
-    if i not in' ':
+for i in n:
+    if i in ' ':
+        continue
+    else:
         c+=1
 print(c)
