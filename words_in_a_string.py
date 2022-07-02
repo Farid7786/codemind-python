@@ -1,4 +1,6 @@
-a=input()
-k=a.split()
-l=len(k)
-print(l)
+n=input()
+c=1
+for i in n:
+    if i in ' ':
+        c=c+1
+print(c)        
