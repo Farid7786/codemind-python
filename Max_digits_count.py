@@ -1,6 +1,6 @@
 n=int(input())
-a=list(map(str,input().split()))
-l=[]
-for i in a:
-    l.append(len(i))
-print(l.count(max(l)))
+l=list(map(str,input().split()))
+a=[]
+for i in l:
+    a.append(len(i))
+print(a.count(max(a)))
