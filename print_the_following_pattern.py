@@ -5,7 +5,7 @@ for i in range(1,n+1):
             continue
         else:
             print(j,end="")
-    for k in range(1,n-2):
+    for k in range((n-3),0,-1):
         print(k,end="")
     print(end="
 ")    
